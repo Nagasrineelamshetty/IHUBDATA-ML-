@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+
+
+nc: 6
+names: ['headset', 'laptop', 'notebooks', 'pen', 'stationary holder', 'vase']
+
+roboflow:
+  workspace: nagasricomputervision
+  project: custom-dataset-object-detection
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/nagasricomputervision/custom-dataset-object-detection/dataset/1
